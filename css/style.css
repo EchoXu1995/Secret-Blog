@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'fixedsys';
+    src: url('fonts/fixedsys.eot');
+    src: url('fonts/fixedsys.eot') format('embedded-opentype'),
+    url('fonts/fixedsys.woff2') format('woff2'),
+    url('fonts/fixedsys.woff') format('woff'),
+    url('fonts/fixedsys.ttf') format('truetype'),
+    url('fonts/fixedsys.svg#fixedsys') format('svg');
+}
+
+body{
+    font-family: fixedsys;
+    position:relative;
+    background-color:#000;
+   
+    width:100%;
+    height:100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+body::selection {
+    background:#000692;
+    color:#fff;
+    display: inline;
+}
+h1{
+	color: black;
+	font-family: fixedsys;
+    font-size: 20px;
+    display: inline;
+	
+}
+h1::selection {
+    background:#000692;
+    color:#fff;
+    display: inline;
+}
+p{
+	color: white;
+	font-family: fixedsys;
+	font-size: 20px;
+    display: inline;
+}
+p::selection {
+    background:#000692;
+    color:#fff;
+    display: inline;
+
+}
+#browser{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    -khtml-user-select: none; 
+    user-select: none;
+}
+#text{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    right: 100px;
+}

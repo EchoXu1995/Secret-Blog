@@ -2,142 +2,67 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Secret Blog</title>                 <!--更改网页名称 -->
+	<title>Secret Blog</title>
 	
-	<meta name="description" content="Echo Xu's Secret Blog">  <!--更改网页描述（就是百度搜索下，大标题下的描述文字） -->
-    <meta name="keywords" content="blog,secret,technology,anxiety">   <!--更改网页关键词-->
+	<meta name="description" content="Echo Xu's Secret Blog">  
+    <meta name="keywords" content="blog,secret,technology,anxiety">  
     <meta name="author" content="Jiaqi Xu">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-
-
-
-                                                       <!--外部CSS链接或业内CSS设定-->
-    <style>
-        @font-face {
-        font-family: 'fixedsys';
-        src: url('fonts/fixedsys.eot');
-        src: url('fonts/fixedsys.eot') format('embedded-opentype'),
-         url('fonts/fixedsys.woff2') format('woff2'),
-         url('fonts/fixedsys.woff') format('woff'),
-         url('fonts/fixedsys.ttf') format('truetype'),
-         url('fonts/fixedsys.svg#fixedsys') format('svg');
-}
-        body{
-	            font-family: fixedsys;
-	            position:relative;
-	            background-color:#000;
-               
-	            width:100%;
-	            height:100%;
-	            overflow: scroll;
-	            overflow-x: hidden;
-             }
-        body::selection {
-            background:#000692;
-            color:#fff;
-            display: inline;
-        }
-        h1{
-        	color: black;
-        	font-family: fixedsys;
-            font-size: 20px;
-            display: inline;
-        	
-        }
-        h1::selection {
-            background:#000692;
-            color:#fff;
-            display: inline;
-        }
-        p{
-        	color: white;
-        	font-family: fixedsys;
-        	font-size: 20px;
-            display: inline;
-        }
-        p::selection {
-            background:#000692;
-            color:#fff;
-            display: inline;
-
-        }
-        #browser{
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            -moz-user-select: none; /*里面的内容不能被选中*/
-            -webkit-user-select: none; 
-            -ms-user-select: none; 
-            -khtml-user-select: none; 
-            user-select: none;
-        }
-        #text{
-            position: absolute;
-            top: 170px;
-            left: 100px;
-            right: 100px;
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-                                                       <!--网页主体部分-->
 
 <body>
 	<div id="browser">
      <img src="img/browser.jpg" style="width:100%;" >  
     </div>
-    <div>
-        <div id="text">
-            <h1>Sat, Sept. 15 Cloudy<br><br><br></h1>
-            <h1>I heard an American nursery rhyme. The name is cute, Ten Little Indians.</h1>
-            <p> and Then There were None.<br></p>
-            <p>Ten little Indian boys went out to dine;<br></p>
-            <h1>One little,</h1>
-            <p>One choked his little self and then there were nine.</p>
-            <h1>two little,</h1>
-            <p>Nine little Indian boys sat up very late;</p>
-            <h1>three little Indians;</h1>
-            <p>One overslept himself and then there were eight.</p>
-            <h1>Four little,</h1>
-            <p>Eight little Indian boys travelling in Devon;</p>
-            <h1>five little,</h1>
-            <p>One said he'd stay there and then there were seven.</p>
-            <h1>six little Indians;</h1>
-            <p>Seven little Indian boys chopping up sticks;</p>
-            <h1>Seven little,</h1>
-            <p>One chopped himself in halves and then there were six.</p>
-            <h1>eight little,</h1>
-            <p>Six little Indian boys playing with a hive;</p>
-            <h1>nine little Indians;</h1>
-            <p>A bumblebee stung one and then there were five.</p>
-            <h1>Ten little Indian boys;</h1>
-            <p>Five little Indian boys going in for law;<br><br></p>
-            <h1>Ten little,</h1>
-            <p>One got in Chancery and then there were four.</p>
-            <h1>nine little,</h1>
-            <p>Four little Indian boys going out to sea;</p>
-            <h1>eight little Indians;</h1>
-            <p>A red herring swallowed one and then there were three.</p>
-            <h1>Seven little,</h1>
-            <p>Three little Indian boys walking in the Zoo;</p>
-            <h1>six little,</h1>
-            <p>A big bear hugged one and then there were two.</p>
-            <h1>five little Indians;</h1>
-            <p>Two little Indian boys sitting in the sun;</p>
-            <h1>Four little,</h1>
-            <p>One got frizzled up and then there was one.</p>
-            <h1>three little,</h1>
-            <p>One little Indian boy left all alone;</p>
-            <h1>two little Indians;</h1>
-            <p>He went and hanged himself and then there were none.</p>
-            <h1>One little Indian boy;</h1>
-            <p></p>
-        </div>
-        
-    </div>    
-   
-
-
-
-	</body>
+        <div>
+            <div id="text">
+                <h1>Sat, Sept. 15 Cloudy<br><br><br></h1>
+                <h1>I heard an American nursery rhyme. The name is cute, Ten Little Indians.</h1>
+                <p> and Then There were None.<br></p>
+                <p>Ten little Indian boys went out to dine;<br></p>
+                <h1>One little,</h1>
+                <p>One choked his little self and then there were nine.</p>
+                <h1>two little,</h1>
+                <p>Nine little Indian boys sat up very late;</p>
+                <h1>three little Indians;</h1>
+                <p>One overslept himself and then there were eight.</p>
+                <h1>Four little,</h1>
+                <p>Eight little Indian boys travelling in Devon;</p>
+                <h1>five little,</h1>
+                <p>One said he'd stay there and then there were seven.</p>
+                <h1>six little Indians;</h1>
+                <p>Seven little Indian boys chopping up sticks;</p>
+                <h1>Seven little,</h1>
+                <p>One chopped himself in halves and then there were six.</p>
+                <h1>eight little,</h1>
+                <p>Six little Indian boys playing with a hive;</p>
+                <h1>nine little Indians;</h1>
+                <p>A bumblebee stung one and then there were five.</p>
+                <h1>Ten little Indian boys;</h1>
+                <p>Five little Indian boys going in for law;<br><br></p>
+                <h1>Ten little,</h1>
+                <p>One got in Chancery and then there were four.</p>
+                <h1>nine little,</h1>
+                <p>Four little Indian boys going out to sea;</p>
+                <h1>eight little Indians;</h1>
+                <p>A red herring swallowed one and then there were three.</p>
+                <h1>Seven little,</h1>
+                <p>Three little Indian boys walking in the Zoo;</p>
+                <h1>six little,</h1>
+                <p>A big bear hugged one and then there were two.</p>
+                <h1>five little Indians;</h1>
+                <p>Two little Indian boys sitting in the sun;</p>
+                <h1>Four little,</h1>
+                <p>One got frizzled up and then there was one.</p>
+                <h1>three little,</h1>
+                <p>One little Indian boy left all alone;</p>
+                <h1>two little Indians;</h1>
+                <p>He went and hanged himself and then there were none.</p>
+                <h1>One little Indian boy;</h1>
+                <p></p>
+            </div>
+        </div>    
+    </body>
+</html>
